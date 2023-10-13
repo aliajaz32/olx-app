@@ -1,0 +1,33 @@
+p{
+    font-size: 0.7rem;
+    /* text-align: center; */
+    color: rgba(0,47,52,.64);
+    font-family: Roboto,Helvetica,sans-serif;
+}
+
+p:hover{
+    color: black;
+    cursor: crosshair;
+}
+h3{
+    /* text-align: center; */
+    color: #002f34;
+    font-family: Roboto,Helvetica,sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: normal;
+}
+.f1{
+    margin-left: 2px;
+}
+a{
+    margin-left: 5px;
+}
+.ftimg{
+    width: 90px;
+    height: 45px;
+}
+.social-icons a img{
+    width:30px;
+    height: 30px;
+}

@@ -1,0 +1,179 @@
+.mainHead{
+    padding: 0;
+    margin: 0;
+    background-color: #f7f8f8;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.imgHead{
+    /* border: 1px solid black; */
+}
+.inputHeader{
+    /* border: 1px solid red; */
+    margin-top: auto;
+    margin-bottom: auto;
+       
+}
+.inputHeader> input{
+    padding: 5px;
+    /* border:1.5px solid black; */
+    border-radius: 3px;
+    margin-left: 5px;
+    font-size: 90%;
+    /* flex-shrink: 5; */
+   
+}
+#input-flex-1{
+    /* border-color:red ; */
+    /* flex-shrink: 5; */
+  
+}
+#input-flex-2{
+/* border-color: orange; */
+/* max-width: 60px;
+min-width: auto; */
+
+}
+.buttonHeader{
+    display: flex;
+    /* border:1px solid black; */
+    margin-top: auto;
+    margin-bottom: auto;
+    /* border: 1px solid brown; */
+    margin-right:10px;
+}
+#logo-icon{
+    width:80px;
+    height: 50px;
+}
+#message-icon,#notify-icon{
+    width:80;
+    height: 40;
+    padding: 10px;
+    /* border:1px solid red */
+    /* border: 1px solid brown; */
+}
+#message-icon:hover,#notify-icon:hover{
+    background-color: #c8f8f6;
+    border-radius: 100%;
+    transition: 0.3s linear
+}
+.character-icon{
+    width:30px;
+    height: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    /* border: 1px solid brown; */
+}
+.dropdown-icon{
+    width:15px;
+    height: 15px;
+    padding-bottom: 12px;
+    padding-top: 10px;
+    /* border: 1px solid brown; */
+}
+.stl1 {
+height: 45px;
+width:95px;
+    display: inline-block;
+    /* border: 1px solid red; */
+    background-repeat: no-repeat;
+    background-image: url("../sellLogo.svg");
+    background-size: 95px ;
+    background-color: transparent;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+.stl1>div {
+    width: 50px;
+    height: 20px;
+    margin-right: auto;
+     margin-left: auto; 
+     margin-top: 10px;
+     margin-bottom: auto;
+/* border: 1px solid green; */
+font-weight: bolder;
+font-size: 20px;
+text-decoration: none;
+}
+
+
+
+/* modal css */
+
+.modal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1 ;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  #liBtn{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+  }
+  #liBtn:hover{
+    border: none;
+    border-bottom: 2px solid transparent;
+    transition: 0.1s ease;
+  }
+  #liBtn a {
+    color : black;
+    text-decoration: none;
+  }
+  .searchBtn:hover  {
+    transition: 0.3s linear;
+    border-radius: 110%;
+    background-color: #c8f8f6;
+  }
+
+
+
+
+

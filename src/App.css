@@ -1,0 +1,12 @@
+.b1{
+    border-radius: "25px";
+  border-image: 'url("") 13 13 13 13 stretch';
+  border: 'none';
+  background-repeat: 'none';
+  background-image: 'url("	https://www.olx.com.pk/assets/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg")';
+  background-size: '80px';
+  padding-bottom: '10px';
+  padding-top: '10px';
+  padding-left: '12px';
+  padding-right: '15px'
+}
